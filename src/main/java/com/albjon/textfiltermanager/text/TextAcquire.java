@@ -11,7 +11,7 @@ import java.util.List;
 
 public class TextAcquire {
     private List<String> wordList;
-    private String filePath;
+    private final String filePath;
     
     public List<String> getWordList() {
         return wordList;
